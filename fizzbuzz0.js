@@ -4,7 +4,7 @@
 window.onload = function() {
 
    document.forms[0].onsubmit = function() {
-	  document.getElementById("greeting").innerHTML= "Welcome to Cat Club in Charlotte!";
+	  document.getElementById("greeting").innerHTML= "Welcome to Cat Club in Charlotte.";
 	  var first_name=document.getElementById("fName").value;
 	  var middle_name=document.getElementById("mName").value;
 	  var last_name=document.getElementById("lName").value;
@@ -15,10 +15,10 @@ window.onload = function() {
 	  var expect = "";
 	  for (var i = 1; i <= words; i++) {
 		  if (i % 2 === 0 ) {
-			  expect += i +".) "+ "Cat Club in Charlotte! - the number is even!<br>";
+			  expect += i +". "+ "Meow.Miu - the number is even!<br>";
 		}
 		else {
-			expect +=  i +".) "+ "Cat Club in Charlotte! - the number is odd!<br>";
+			expect +=  i +". "+ "Miu.Meow - the number is odd!<br>";
 		}
 	  }
 
