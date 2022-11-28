@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Cat Club in Charlotte</title>
-	<link rel="stylesheet" href="styless.css">
+
+	<meta charset="utf-8">
+	<meta name="keywords"
+		  content="Fizz Buzz 0, Cat Club in Charlotte">
+	<title> Demetrius Johnson - WEB115_N801 - Broken Branch Greenspaces- Fizz Buzz 0</title>
+	<link href= "styless.css" rel="stylesheet">
 	<script src="fizzbuzz0.js"></script>
+
 </head>
 
 <body>
+	<header>
+		<h1>Cat Club in Charllote</h1>
+	</header>
 
-<header>
-	<h1>Fizz Buzz 0</h1>
-	<h2 id="greeting">Welcome to the Cat Club in Charlotte.</h2>
-</header>
+   <main>
+     <h2 id ="greeting">Welcome to Cat Club in Charlotte.</h2>
 
-<form action="javascript:void(0);" method="post" onsubmit="fizzBuzz()">
-	<label for="firstName">First Name:</label><br>
-	<input type="text" id="firstName" name="first" placeholder="First Name"><br>
-	<label for="middleInitial">Middle Initial:</label><br>
-	<input type="text" id="middleName" name="middle" placeholder="M" maxlength="1"><br>
-	<label for="lastName">Last Name:</label><br>
-	<input type="text" id="lastName" name="last" placeholder="Last Name"><br>
-	<input type="submit" value="Submit">
-</form>
+		<form id="order_form" action="www.example.com/" method="post">
+			<fieldset id="Customer">
+				<legend>Entry Information</legend>
+				<div class="tabBox">
+					<label for="fName">First Name:</label>
+					<input name="custName" id="fName" type="text" placeholder="first name" autofocus required />
+				</div>
+				<div class="tabBox">
+					<label for="mName">Middle Name:</label>
+					<input name="custName" id="mName" type="text" placeholder="middle initial" maxlength= "1" required />
+				</div>
+				<div class="tabBox">
+					<label for="lName">Last Name:</label>
+					<input name="custName" id="lName" type="text" placeholder="last name" required />
+				</div>
+				<div id= "buttons">
+					<input type="submit" value="Submit" />
+					<input type="reset" value="Cancel" />
+				</div>
+			</fieldset>
 
-<p id="output">......</p>
-</body>
-<footer>
+		</form>
+		<br>
+		<p id = "displayR"></p>
+	<br>
+   </main>
+	 </body>
+	 <footer>
 
          <br>
          <a  href="https://github.com/vsviryd777">My Github</a>
@@ -43,7 +63,5 @@
          <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbtramme0.github.io%2Fweb115%2Fcontract&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en" style = "text-decoration: none">
         <img src="https://btramme0.github.io/web115/images/button_css_blue.gif" alt="Validate CSS" /></a>
       </footer>
-
-
 
 </html>
